@@ -85,3 +85,13 @@ Variant Variant::from_json_string(std::string sjson) {
 Variant Variant::parse_json(jsonlib::Json job) {
     // Implementación pendiente
 }
+```
+
+### Para añadir json11
+
+Primero, descarga json11. Puedes hacerlo clonando el repositorio de GitHub:
+
+git clone https://github.com/dropbox/json11.git
+
+Después de clonar, tendrás una carpeta llamada "json11" en tu proyecto.
+Modifica tu CMakeLists.txt para incluir json11. Debería verse así:
